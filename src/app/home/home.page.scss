@@ -8,3 +8,23 @@
   font-size: 1.2rem;
   padding: 1rem 2rem;
 }
+
+
+  .ad-wrapper {
+    position: fixed;
+    top: 0; /* Stick the ad to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it's above other content */
+    text-align: center; /* Default center alignment */
+  }
+
+  .ad-wrapper.left {
+    text-align: left; /* Align ad to the left */
+    padding-left: 10px;
+  }
+
+  .ad-wrapper.right {
+    text-align: right; /* Align ad to the right */
+    padding-right: 10px;
+  }
+
