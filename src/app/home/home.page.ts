@@ -12,6 +12,10 @@ import { AdMob, AdOptions, BannerAdSize } from '@capacitor-community/admob';
 export class HomePage {
   isFlashlightOn = false;
 
+  ngOnInit() {
+    this.showAd();
+  }
+
   toggleFlashlight() {
     if (window.plugins && window.plugins.flashlight) {
       if (this.isFlashlightOn) {

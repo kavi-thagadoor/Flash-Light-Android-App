@@ -1,23 +1,19 @@
-<div id="adBanner" class="ad-wrapper"></div>
 
-<div class="flashlight-container">
+<!-- <div class="flashlight-container">
   <button (click)="toggleFlashlight()" class="btn btn-primary">
     {{ isFlashlightOn ? 'Turn Off' : 'Turn On' }} Flashlight
   </button>
-</div>
+</div> -->
 
-<header style="background-color: #3880ff; color: white; padding: 15px; text-align: center;">
-  <h1>AdMob Test</h1>
-</header>
 
-<main style="padding: 20px; text-align: center;">
-  <h2>AdMob Test Banner</h2>
-  <div style="margin-top: 20px;">
-    <button (click)="showAd()" style="padding: 10px 20px; margin-right: 10px; background-color: #4caf50; color: white; border: none; cursor: pointer;">
-      Show Ad
-    </button>
-    <button (click)="hideAd()" style="padding: 10px 20px; background-color: #f44336; color: white; border: none; cursor: pointer;">
-      Hide Ad
-    </button>
+<!-- From Uiverse.io by Creatlydev --> 
+<div class="container">
+  <input (click)="toggleFlashlight()" hidden="" id="check" name="check" type="checkbox">
+  <label class="toggle" for="check">
+      <div class="toggle__circle"></div>
+  </label>
+  <div class="toggle-text">
+      <span>N</span>
+      <span>F</span>
   </div>
-</main>
+</div>
