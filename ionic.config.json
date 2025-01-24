@@ -1,0 +1,7 @@
+{
+  "name": "Flash Light",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
