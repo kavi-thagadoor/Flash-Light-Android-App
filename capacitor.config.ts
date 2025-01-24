@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'kavi.flashlight',
   appName: 'Flash Light',
   webDir: 'www',
   plugins: {

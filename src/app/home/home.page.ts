@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 declare let window: any; 
 import { AdMob, AdOptions, BannerAdSize } from '@capacitor-community/admob';
+import { environment } from 'src/environments/environment';
 
 
 @Component({
@@ -34,8 +35,8 @@ export class HomePage {
 
   async showAd() {
     const adOptions: AdOptions = {
-      adId: 'ca-app-pub-3940256099942544/6300978111', // Test Banner Ad Unit ID
-      isTesting: true, // Ensure test ads are used
+      adId: environment.admobBannerId, // Test Banner Ad Unit ID
+      isTesting: environment.adMobTesting, // Ensure test ads are used
       // To control alignment, you can use additional styles (explained below).
     };
   
